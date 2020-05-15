@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ITC_PRO_FK" directorySegmentName="seg_0" id="2AAC90C3-7FA3-D98B-7FAD-B3BEF1349B26">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<generatorID>C0DAF2D7-A319-31D7-A7A1-5B5F5B1302F5</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<sourcePk>E69D6171-4071-D7BB-0A90-2D86E5CE4DAB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>311DBBB7-3C3F-5E20-D6D2-367F98D9051B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C206FE0F-ABC6-21EB-2AFF-BA5BFA05509E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

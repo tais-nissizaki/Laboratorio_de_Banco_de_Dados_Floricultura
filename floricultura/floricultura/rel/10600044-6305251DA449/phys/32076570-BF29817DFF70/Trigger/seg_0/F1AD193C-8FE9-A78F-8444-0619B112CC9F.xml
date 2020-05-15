@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="SEQ_FOR" directorySegmentName="seg_0" id="F1AD193C-8FE9-A78F-8444-0619B112CC9F">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:14 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+:NEW.FOR_ID := APP.SEQ_FOR.NEXTVAL;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>4F6530E8-5F51-A077-C0C4-53668E6536EF</owner>
+<table>DED00D00-9320-EFCD-F549-CEC4FC0A44AA</table>
+</TriggerOraclev10g>

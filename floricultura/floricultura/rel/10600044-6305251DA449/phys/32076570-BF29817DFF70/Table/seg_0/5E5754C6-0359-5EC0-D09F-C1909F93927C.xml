@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CLIENTES" directorySegmentName="seg_0" id="5E5754C6-0359-5EC0-D09F-C1909F93927C">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:48 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<schemaObject>3E568FB3-AD4D-8A3B-E961-5783098F43F3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C6CBF46F-685F-D1DA-1B92-1A2BC7C26871</segment>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CLI_CEP" id="240B52E7-5D50-6B41-F660-3F172978AB24">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLI_EMAIL" id="3457708A-3A64-AB70-1F7D-724FC97D8DB9">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLI_COMPLEMENTO" id="475C84D6-34E9-3D09-8417-918464B92D5D">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLI_NOME" id="4BD64941-834F-2450-4DDC-13B14E45B7D5">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLI_DTNASC" id="4C8E2C57-7E84-3BE2-8F2B-7E128BE3FD12">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLI_NUMERO" id="832CFAE8-5A3B-B346-9D83-723B0D2E3365">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLI_ESTADO" id="8A86E9F6-8385-C1BC-6AC1-50CFE842C73E">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLI_CPF" id="906880C7-06FB-C167-6A45-6040924FC488">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLI_LOGRADOURO" id="D4793732-39A0-01E9-7316-F7FCA363F478">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLI_CIDADE" id="E66C940B-54E4-4B49-5D59-6AEA171B6964">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLI_ID" id="E67785A1-C3CB-DFA6-BA5A-2F810FC48D93">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:48 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CLI_BAIRRO" id="EDB65AED-1694-874C-465A-457C1F27CB1E">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CLI_PK" id="827C3A7B-BD8C-49B8-BB86-1243EAB153FA">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<schemaObject>3E568FB3-AD4D-8A3B-E961-5783098F43F3</schemaObject>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>B9D66DD3-17AE-46C2-DCEB-14B5E7902C3F</segment>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CLI_PK" id="C320B189-7613-2AB4-FAD5-9E7B3B727F4B">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>5C71C462-699C-14AE-F8A3-DBFFAE23B21B</segment>
+<indexSegment>5C71C462-699C-14AE-F8A3-DBFFAE23B21B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

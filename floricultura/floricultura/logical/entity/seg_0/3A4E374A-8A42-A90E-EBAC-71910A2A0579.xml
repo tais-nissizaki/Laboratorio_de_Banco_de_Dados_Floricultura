@@ -1,0 +1,241 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3A4E374A-8A42-A90E-EBAC-71910A2A0579" name="VENDAS">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<generatorID>A67F4751-766F-F591-81D8-2B4E8934D56C</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="VEN DATA" id="626A3CBC-D090-65F7-F8DE-982AC07B2D93">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data em que a venda foi efetuada]]></commentInRDBMS>
+<generatorID>D7FE3B7A-C043-6C6D-F3FA-2D0893D88E3E</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7B404A7A-27A0-B1E2-6FC6-C0AFC9ACD4F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEN VALOR" id="24EFDED4-C45B-E5E0-F28C-BC6B634849F0">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor da Venda]]></commentInRDBMS>
+<generatorID>95CDDFAD-2D42-49A6-4FCE-AD6ECAD2A755</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>F86DBF38-158B-0995-9C3E-C7E6157E2893</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEN F PAGTO" id="05433059-F176-E724-02FB-8ECD88DAC2C7">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Forma de pagamento em que a venda foi efetuada]]></commentInRDBMS>
+<generatorID>ED353EC9-64FC-D24A-518F-FA74FAF13BBA</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>588AA954-5943-BC60-C23A-3C91BD7B3FD6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEN ID" id="9EAE7151-BC9C-93CA-AF8E-DAF28E8F7297">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chave primÃ¡ria de identificaÃ§Ã£o da tabela vendas]]></commentInRDBMS>
+<generatorID>0714DCFE-9DE1-7DB6-C7D1-DDE2C79E8560</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>689F6465-1225-5D98-373A-EA75166092CF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEN CLI ID" id="2038018E-3BB5-6AAD-5A16-FBE7FC5DBD4B">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chave estrangeira de identificaÃ§Ã£o da tabela clientes]]></commentInRDBMS>
+<generatorID>0350D1C4-2ECA-84AF-1B3D-F97B1D8BBDAB</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<referedAttribute>B0BC37C3-E807-988B-4643-C3E5714E3D75</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>689F6465-1225-5D98-373A-EA75166092CF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEN USU ID" id="96C7A06C-5959-25D7-8242-C62D9DB69A2C">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chave estrangeira de identificaÃ§Ã£o da tabela usuarios]]></commentInRDBMS>
+<generatorID>B2F9261C-18A6-615A-804A-EE68175B811A</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<referedAttribute>98BD5169-64C6-3579-7482-1264740E2D57</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>689F6465-1225-5D98-373A-EA75166092CF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEN LOGRADOURO" id="A464A98C-E754-D75D-A637-1C1CE3923024">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Logradouro do endereÃ§o da venda]]></commentInRDBMS>
+<generatorID>5C375DE3-B8A9-E618-B5DE-96D1B44CA052</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DC6110B0-27A9-2666-5220-1950157CA273</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEN NUMERO" id="509F1C22-EA8D-27B2-DD7D-FB4CE3CBA691">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[NÃºmero do endereÃ§o da venda]]></commentInRDBMS>
+<generatorID>A07710A6-9CA3-95AB-62B6-1A25A9A120D5</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>588AA954-5943-BC60-C23A-3C91BD7B3FD6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEN COMPLEMENTO" id="59D22DDF-3BCA-89B2-309B-7E37522E1886">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Complemento do endereÃ§o da venda]]></commentInRDBMS>
+<generatorID>251B594A-FF89-E71E-5FD6-7AFB17D5FD33</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C7510B18-92BF-B1C4-2639-BD78AC72B011</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEN BAIRRO" id="91094876-A697-845B-27EA-05ACE2A98886">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bairro do endereÃ§o da venda]]></commentInRDBMS>
+<generatorID>2C37D1EB-75AB-6015-9891-D6C0E97A2439</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C7510B18-92BF-B1C4-2639-BD78AC72B011</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEN CIDADE" id="018675C1-7ED5-417A-EC2C-27B73D511BC4">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cidade do endereÃ§o da venda]]></commentInRDBMS>
+<generatorID>64D109D9-9CFD-3D88-5A72-5B63DA8E2065</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C7510B18-92BF-B1C4-2639-BD78AC72B011</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEN ESTADO" id="96B847B4-F2BC-6359-C900-57EEB82FC531">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado do endereÃ§o da venda]]></commentInRDBMS>
+<generatorID>0A0B266C-5AE1-F9BE-B4B7-E48010BC6A4B</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FC65BA16-3546-45B5-3811-B3E113909144</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VEN CEP" id="7754A35A-9440-7635-5587-728B88AF7FBE">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[CEP do endereÃ§o da venda]]></commentInRDBMS>
+<generatorID>CC36053C-59B4-0B35-9864-33A31876C36B</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EB81B43E-A09C-1EEC-B632-71E668E320E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9CB7D87-F3AB-65F5-EC00-E2ED2575EBB7" name="VEN PK">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:23:21 UTC</createdTime>
+<generatorID>7CAA93B9-3429-29F8-7188-06BDE586DCE7</generatorID>
+<ownerDesignName>floricultura</ownerDesignName>
+<engineerTo>
+<item key="1298D5C3-C0EF-C25A-FA0B-C163B9AE537B" value="true"/>
+<item key="10600044-6BF2-CA42-1F9E-6305251DA449" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9EAE7151-BC9C-93CA-AF8E-DAF28E8F7297</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

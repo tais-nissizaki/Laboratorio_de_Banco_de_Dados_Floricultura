@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PRODUTOS" directorySegmentName="seg_0" id="8FD56838-8650-8923-F79A-4704137733BD">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:48 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<schemaObject>3E568FB3-AD4D-8A3B-E961-5783098F43F3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C6CBF46F-685F-D1DA-1B92-1A2BC7C26871</segment>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRO_CAM_IMA" id="2B3EF159-42B7-26A3-7D9F-FF170748B19D">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRO_ID" id="5D574EDC-F18A-BC59-7A78-00B3A581E35E">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRO_PRECO" id="896914A2-DCC7-8855-12C2-01837A2601B7">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRO_DESCRICAO" id="DC61CF7C-6543-B31C-751B-1D51F8D359CF">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PRO_PK" id="6A1F3D32-CE8D-67EA-BB95-A4062F6E6B43">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<schemaObject>3E568FB3-AD4D-8A3B-E961-5783098F43F3</schemaObject>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>B9D66DD3-17AE-46C2-DCEB-14B5E7902C3F</segment>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PRO_PK" id="2443C1A5-2406-5104-FC96-C1DA8A0FDF98">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>5C71C462-699C-14AE-F8A3-DBFFAE23B21B</segment>
+<indexSegment>5C71C462-699C-14AE-F8A3-DBFFAE23B21B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

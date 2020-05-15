@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="SEQ_COM" directorySegmentName="seg_0" id="F15A4C52-3446-D49F-FAC2-7D61577932EA">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:14 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[BEGIN
+:NEW.COM_ID := APP.SEQ_COM.NEXTVAL;
+END;]]></body>
+<triggerTime>BEFORE</triggerTime>
+<owner>4F6530E8-5F51-A077-C0C4-53668E6536EF</owner>
+<table>5E7A8939-E444-6418-05A0-24289DD1BBC0</table>
+</TriggerOraclev10g>

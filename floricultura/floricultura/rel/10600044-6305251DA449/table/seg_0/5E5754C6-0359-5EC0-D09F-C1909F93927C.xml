@@ -1,0 +1,200 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E5754C6-0359-5EC0-D09F-C1909F93927C" schemaObject="3E568FB3-AD4D-8A3B-E961-5783098F43F3" name="CLIENTES">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:48 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>21A67719-423A-CB6E-7A00-453FCFB314C1</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CLI_ID" id="E67785A1-C3CB-DFA6-BA5A-2F810FC48D93">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Chave primaria de identificaÃ§Ã£o da tabela clientes]]></commentInRDBMS>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>D7B7B4F4-D25A-3BC5-56CD-5CF3A1C308BC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>689F6465-1225-5D98-373A-EA75166092CF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLI_NOME" id="4BD64941-834F-2450-4DDC-13B14E45B7D5">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Nome do cliente]]></commentInRDBMS>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>255D62CC-AFAB-9EC5-CDA9-86DA9EF20E61</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DC6110B0-27A9-2666-5220-1950157CA273</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLI_DTNASC" id="4C8E2C57-7E84-3BE2-8F2B-7E128BE3FD12">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de nascimento do cliente]]></commentInRDBMS>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>FF5B6B01-AE90-778E-F7C9-61BC909CF2E2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>7B404A7A-27A0-B1E2-6FC6-C0AFC9ACD4F7</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLI_CPF" id="906880C7-06FB-C167-6A45-6040924FC488">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[CPF do cliente]]></commentInRDBMS>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>5A3FEBFE-C183-A66C-C4FE-36F5DE2BA5DF</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C2D6528A-40E7-25B7-C2A4-71A9EDE270A2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLI_EMAIL" id="3457708A-3A64-AB70-1F7D-724FC97D8DB9">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[E-mail do cliente]]></commentInRDBMS>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>645BC0CC-2658-26E4-2B1D-597927628AC8</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C7510B18-92BF-B1C4-2639-BD78AC72B011</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLI_LOGRADOURO" id="D4793732-39A0-01E9-7316-F7FCA363F478">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Logradouro do endereÃ§o do cliente]]></commentInRDBMS>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>590B8E40-A6B9-BAA2-FBED-118CDA43D7B7</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DC6110B0-27A9-2666-5220-1950157CA273</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLI_NUMERO" id="832CFAE8-5A3B-B346-9D83-723B0D2E3365">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[NÃºmero do endereÃ§o do cliente]]></commentInRDBMS>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>7E6BAC02-63E2-8E13-EABB-36F10DB8C0ED</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>588AA954-5943-BC60-C23A-3C91BD7B3FD6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLI_COMPLEMENTO" id="475C84D6-34E9-3D09-8417-918464B92D5D">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Complemento do endereÃ§o do cliente]]></commentInRDBMS>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>36556879-736F-E905-7399-06C599878DAC</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C7510B18-92BF-B1C4-2639-BD78AC72B011</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLI_BAIRRO" id="EDB65AED-1694-874C-465A-457C1F27CB1E">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bairro do endereÃ§o do cliente]]></commentInRDBMS>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>B68CF10E-E9AC-52B2-B46C-AC4C07DE0FDF</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C7510B18-92BF-B1C4-2639-BD78AC72B011</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLI_CIDADE" id="E66C940B-54E4-4B49-5D59-6AEA171B6964">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cidade do endereÃ§o do cliente]]></commentInRDBMS>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>5F21EB47-8DFA-03BD-70E2-3CEF32E564AB</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C7510B18-92BF-B1C4-2639-BD78AC72B011</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLI_ESTADO" id="8A86E9F6-8385-C1BC-6AC1-50CFE842C73E">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[Estado do endereÃ§o do cliente]]></commentInRDBMS>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>75209DC1-58B7-9153-9BDC-B82EAC2209BC</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>FC65BA16-3546-45B5-3811-B3E113909144</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLI_CEP" id="240B52E7-5D50-6B41-F660-3F172978AB24">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<commentInRDBMS><![CDATA[CEP do endereÃ§o do cliente]]></commentInRDBMS>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>2E915370-DB10-EA7D-7826-C79E284804C8</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>EB81B43E-A09C-1EEC-B632-71E668E320E9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C320B189-7613-2AB4-FAD5-9E7B3B727F4B" name="CLI_PK">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>92764474-7676-958E-C4B0-EEEE8B7D7183</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E67785A1-C3CB-DFA6-BA5A-2F810FC48D93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="827C3A7B-BD8C-49B8-BB86-1243EAB153FA" schemaObject="3E568FB3-AD4D-8A3B-E961-5783098F43F3" name="CLI_PK">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>72242D30-84D3-E84D-B83B-54ACBD914185</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E67785A1-C3CB-DFA6-BA5A-2F810FC48D93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

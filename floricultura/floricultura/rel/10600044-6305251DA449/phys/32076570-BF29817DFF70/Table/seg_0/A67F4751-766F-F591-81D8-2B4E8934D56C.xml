@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="VENDAS" directorySegmentName="seg_0" id="A67F4751-766F-F591-81D8-2B4E8934D56C">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:48 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<schemaObject>3E568FB3-AD4D-8A3B-E961-5783098F43F3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C6CBF46F-685F-D1DA-1B92-1A2BC7C26871</segment>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="VEN_ID" id="0714DCFE-9DE1-7DB6-C7D1-DDE2C79E8560">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEN_ESTADO" id="0A0B266C-5AE1-F9BE-B4B7-E48010BC6A4B">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEN_CLI_ID" id="1815F50E-4771-5A75-10C1-3AF6697CE781">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEN_USU_ID" id="21C51DE9-A51F-E0D8-28BA-149E12C7E8B5">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEN_COMPLEMENTO" id="251B594A-FF89-E71E-5FD6-7AFB17D5FD33">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEN_BAIRRO" id="2C37D1EB-75AB-6015-9891-D6C0E97A2439">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEN_LOGRADOURO" id="5C375DE3-B8A9-E618-B5DE-96D1B44CA052">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEN_CIDADE" id="64D109D9-9CFD-3D88-5A72-5B63DA8E2065">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEN_VALOR" id="95CDDFAD-2D42-49A6-4FCE-AD6ECAD2A755">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEN_NUMERO" id="A07710A6-9CA3-95AB-62B6-1A25A9A120D5">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEN_CEP" id="CC36053C-59B4-0B35-9864-33A31876C36B">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEN_DATA" id="D7FE3B7A-C043-6C6D-F3FA-2D0893D88E3E">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="VEN_F_PAGTO" id="ED353EC9-64FC-D24A-518F-FA74FAF13BBA">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="VEN_PK" id="ED8F52DA-2917-65B2-B2FC-6AC93D4E92D6">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<schemaObject>3E568FB3-AD4D-8A3B-E961-5783098F43F3</schemaObject>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>B9D66DD3-17AE-46C2-DCEB-14B5E7902C3F</segment>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VEN_CLI_FK" id="B3EE905B-0C6F-B636-54B2-33D18436FABB">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VEN_USU_FK" id="E4D38533-6D0C-78B3-1CF4-7812FDD1898F">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="VEN_PK" id="7CAA93B9-3429-29F8-7188-06BDE586DCE7">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>5C71C462-699C-14AE-F8A3-DBFFAE23B21B</segment>
+<indexSegment>5C71C462-699C-14AE-F8A3-DBFFAE23B21B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

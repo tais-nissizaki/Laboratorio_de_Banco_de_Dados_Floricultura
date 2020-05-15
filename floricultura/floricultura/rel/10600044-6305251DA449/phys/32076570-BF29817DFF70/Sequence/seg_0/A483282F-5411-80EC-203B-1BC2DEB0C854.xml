@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<SequenceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.SequenceOraclev10g" name="SEQ_FOR" directorySegmentName="seg_0" id="A483282F-5411-80EC-203B-1BC2DEB0C854">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:14 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<incrementBy>1</incrementBy>
+<maxValue>9999999999999999999999999999</maxValue>
+<minValue>1</minValue>
+<noCache>YES</noCache>
+<startWith>1</startWith>
+<user>4F6530E8-5F51-A077-C0C4-53668E6536EF</user>
+</SequenceOraclev10g>

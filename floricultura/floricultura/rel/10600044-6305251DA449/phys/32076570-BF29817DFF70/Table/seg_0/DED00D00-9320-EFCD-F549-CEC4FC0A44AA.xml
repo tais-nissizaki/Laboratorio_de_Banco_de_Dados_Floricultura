@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="FORNECEDORES" directorySegmentName="seg_0" id="DED00D00-9320-EFCD-F549-CEC4FC0A44AA">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:48 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<schemaObject>3E568FB3-AD4D-8A3B-E961-5783098F43F3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C6CBF46F-685F-D1DA-1B92-1A2BC7C26871</segment>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FOR_ESTADO" id="3047BA80-C4B5-CA1B-C73C-A59204C62ADB">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOR_ID" id="56CD1008-A166-40C1-36FC-1D846862A139">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOR_CIDADE" id="6B3F3532-C5DC-D770-FA59-52B8051173ED">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOR_CNPJ_CPF" id="77660D97-5615-D672-5EF0-2F78A5CE32B0">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOR_BAIRRO" id="78D49A20-6160-F74E-6492-115E4D1E3F8F">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOR_EMAIL" id="99EF2CC1-5272-EE4D-5EBE-4E2E74A1EC0A">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOR_NOME" id="B9988A2F-F1BE-5DF8-5D1C-9B18A1E07405">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOR_CEP" id="C9878E96-4726-A57A-E29C-5F6F33997110">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOR_COMPLEMENTO" id="D3A4BA0F-AF61-CE02-B557-317C44393D2D">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOR_NUMERO" id="ED256991-4B67-93DF-D8B7-AF785AADE597">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FOR_LOGRADOURO" id="FAB66355-BF7E-8991-453D-809D6FBCC6F5">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FOR_PK" id="6AC4A11B-583D-4A6D-4123-6438BE22EF04">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<schemaObject>3E568FB3-AD4D-8A3B-E961-5783098F43F3</schemaObject>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>B9D66DD3-17AE-46C2-DCEB-14B5E7902C3F</segment>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FOR_PK" id="59E23F1C-C37B-9D41-1DFD-7C5045D1BEA4">
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<computeStatistics>YES</computeStatistics>
+<logging></logging>
+<segment>5C71C462-699C-14AE-F8A3-DBFFAE23B21B</segment>
+<indexSegment>5C71C462-699C-14AE-F8A3-DBFFAE23B21B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

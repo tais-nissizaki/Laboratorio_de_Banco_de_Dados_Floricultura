@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="floricultura5_Domains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_100" id="1C9DC2D4-69CA-56B7-0F08-B435CB8A2B34">
+<createdBy>Tais</createdBy>
+<createdTime>2020-03-13 23:09:28 UTC</createdTime>
+<ownerDesignName>floricultura5</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>100</dataTypeSize>
+<fileName>floricultura5_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_50" id="22674510-BFC2-920C-F82B-B5B82E078CEB">
+<createdBy>Tais</createdBy>
+<createdTime>2020-03-13 23:09:28 UTC</createdTime>
+<ownerDesignName>floricultura5</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>50</dataTypeSize>
+<fileName>floricultura5_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Integer_0_0_0" id="2DCBC318-B8A7-100C-88AF-9B2F2EBDCFA7">
+<createdBy>Tais</createdBy>
+<createdTime>2020-03-13 23:09:27 UTC</createdTime>
+<ownerDesignName>floricultura5</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>floricultura5_Domains</fileName>
+<logicalDatatype>LOGDT011</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_150" id="58914042-6F6C-3A34-030F-ECB8B7D6EF2A">
+<createdBy>Tais</createdBy>
+<createdTime>2020-03-13 23:09:28 UTC</createdTime>
+<ownerDesignName>floricultura5</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>150</dataTypeSize>
+<fileName>floricultura5_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Date_0_0_0" id="7B404A7A-27A0-B1E2-6FC6-C0AFC9ACD4F7">
+<createdBy>Tais</createdBy>
+<createdTime>2020-03-13 23:09:28 UTC</createdTime>
+<ownerDesignName>floricultura5</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>floricultura5_Domains</fileName>
+<logicalDatatype>LOGDT007</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_8" id="90916E1C-4CD4-FBF6-EA8C-A94EA008F9FA">
+<createdBy>Tais</createdBy>
+<createdTime>2020-03-13 23:09:28 UTC</createdTime>
+<ownerDesignName>floricultura5</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>8</dataTypeSize>
+<fileName>floricultura5_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_20" id="95455311-A90A-8DFF-7844-BBF49DF1B552">
+<createdBy>Tais</createdBy>
+<createdTime>2020-03-13 23:09:28 UTC</createdTime>
+<ownerDesignName>floricultura5</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>20</dataTypeSize>
+<fileName>floricultura5_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_10" id="CE8F13FB-AA19-057F-E2FC-F6CD93C291B8">
+<createdBy>Tais</createdBy>
+<createdTime>2020-03-13 23:09:28 UTC</createdTime>
+<ownerDesignName>floricultura5</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>10</dataTypeSize>
+<fileName>floricultura5_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_2" id="D7A3662A-210F-E167-D06B-E94BB3518F82">
+<createdBy>Tais</createdBy>
+<createdTime>2020-03-13 23:09:28 UTC</createdTime>
+<ownerDesignName>floricultura5</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>2</dataTypeSize>
+<fileName>floricultura5_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="NUMERIC_8_2_0" id="F86DBF38-158B-0995-9C3E-C7E6157E2893">
+<createdBy>Tais</createdBy>
+<createdTime>2020-03-13 23:09:28 UTC</createdTime>
+<ownerDesignName>floricultura5</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<dataTypeSize>0</dataTypeSize>
+<fileName>floricultura5_Domains</fileName>
+<logicalDatatype>LOGDT019</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_14" id="F8CA368F-C48D-FE34-2A63-AFE183D0200A">
+<createdBy>Tais</createdBy>
+<createdTime>2020-03-13 23:09:28 UTC</createdTime>
+<ownerDesignName>floricultura5</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>14</dataTypeSize>
+<fileName>floricultura5_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="VARCHAR_0_0_11" id="FE419AC9-07C6-48BB-86AC-2D407C50018C">
+<createdBy>Tais</createdBy>
+<createdTime>2020-03-13 23:09:28 UTC</createdTime>
+<ownerDesignName>floricultura5</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypePrecision>0</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<dataTypeSize>11</dataTypeSize>
+<fileName>floricultura5_Domains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

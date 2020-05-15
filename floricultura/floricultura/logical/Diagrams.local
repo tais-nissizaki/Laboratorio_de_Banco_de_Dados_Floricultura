@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="main_view" objectID="1F629D3C-F76B-D32E-06AD-576F4D45AFAF" name="Logical" visible="true"/>
+   <object objectType="sub_view" objectID="2FBD74A1-A368-0336-7350-91E820432485" name="From_RM_floricultura" visible="false"/>
+   <object objectType="sub_view" objectID="5845BD50-B77E-FCA1-1D23-D02312373045" name="From_RM_floricultura5" visible="false"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

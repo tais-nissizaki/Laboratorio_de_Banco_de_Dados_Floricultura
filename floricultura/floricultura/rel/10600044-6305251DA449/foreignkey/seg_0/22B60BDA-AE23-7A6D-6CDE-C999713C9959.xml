@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="22B60BDA-AE23-7A6D-6CDE-C999713C9959" containerWithKeyObject="0E700ABB-FDFD-4E67-98C4-51D7CE8EF599" localFKIndex="90435D07-8F0A-6C62-BDDA-8C905A477451" name="ITV_VEN_FK">
+<sourceDDLFile>floricultura.ddl</sourceDDLFile>
+<createdBy>Tais</createdBy>
+<createdTime>2020-05-15 00:20:49 UTC</createdTime>
+<ownerDesignName>floricultura</ownerDesignName>
+<importedID>C5658753-9885-C2B0-A061-A55806C15CC3</importedID>
+<referredTableLongName>APP.VENDAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A67F4751-766F-F591-81D8-2B4E8934D56C</referredTableID>
+<keyObject>7CAA93B9-3429-29F8-7188-06BDE586DCE7</keyObject>
+<referredKeyID>7CAA93B9-3429-29F8-7188-06BDE586DCE7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>VEN_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
